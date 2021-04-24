@@ -1,7 +1,6 @@
 import React from "react";
-import { useStore } from "./components";
+import { Toggle, useStore } from "./components";
 import { light, dark } from "./themes";
-import { Toggle } from "./components";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 function App() {
   const GlobalStyle = createGlobalStyle`
